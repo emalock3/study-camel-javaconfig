@@ -120,15 +120,6 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.camel</groupId>
-				<artifactId>camel-maven-plugin</artifactId>
-				<version>${camel.ver}</version>
-				<configuration>
-					<duration>5s</duration>
-					<configClasses>com.github.emalock.camel.spring.RouteConfig</configClasses>
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
 
