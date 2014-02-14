@@ -19,6 +19,7 @@ public class RouteConfig extends SingleRouteCamelConfiguration implements Initia
 		ProducerTemplate template = main.getCamelTemplate();
 		System.out.println("\n======================\n");
 		template.requestBody("direct:hello", "hoge");
+		template.requestBody("direct:hoge3", "hoge3");
 		System.out.println("\n======================\n");
 		main.stop();
 	}
